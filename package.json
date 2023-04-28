@@ -1,0 +1,32 @@
+{
+  "name": "tp-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tp-blog",
+  "author": "Thai Phan",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "deploy": "npm run build && node ./deploy/github"
+  },
+  "dependencies": {
+    "gatsby": "^5.9.0",
+    "gatsby-source-filesystem": "^5.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.0.11",
+    "gh-pages": "^5.0.0",
+    "typescript": "^5.0.4"
+  }
+}
